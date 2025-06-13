@@ -91,8 +91,15 @@ export default function Hero() {
                 className="gap-2 group"
                 onClick={() => {
                   const element = document.querySelector("#contact")
-                  if (element) {
-                    const offsetTop = element.getBoundingClientRect().top + window.pageYOffset
+                  // if (element) {
+                  //   const offsetTop = element.getBoundingClientRect().top + window.pageYOffset
+                  //   window.scrollTo({
+                  //     top: offsetTop,
+                  //     behavior: "smooth",
+                  //   })
+                   if (element) {
+                    const headerHeight = 64
+                    const offsetTop = element.getBoundingClientRect().top + window.pageYOffset - headerHeight
                     window.scrollTo({
                       top: offsetTop,
                       behavior: "smooth",
