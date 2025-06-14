@@ -56,7 +56,8 @@ export default function Navbar() {
           transition={{ duration: 0.5 }}
           className="font-bold text-xl"
         >
-          <span className="gradient-text">Portfolio</span>
+          <span className="gradient-text">Harsh </span>
+          <span className="">☕️ + 👨🏻‍💻</span>
         </motion.div>
 
         {/* Desktop Navigation */}
